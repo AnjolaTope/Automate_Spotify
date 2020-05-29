@@ -4,12 +4,9 @@ from youtube_client import YoutubeClient
 from spotify_client import SpotifyClient
 
 def run():
-    os.environ['SPOTIFY_AUTH_TOKEN'] = 'BQCYw2XJKN76kjIiA6gJH8E5c_d3WRQBqX74wFTa7UDwYUSc4rJ1AEocQBFPH2LaOK-1ddJcyaa0ZUZ5s4sZO7n_mGT8OgrQZBzbWxyjfn27GPFr-Vs-ULqi0BdYqP-Z4ehb18I-l9YZJeG6_1xNiabqwc4_ON6mKFejO-O2lw'
-    #result=os.getenv('SPOTIFY_AUTH_TOKEN')
-    #echo print(result)
+    os.environ['SPOTIFY_AUTH_TOKEN'] = 'put spotify token here '
     
     # Get a list of our playlists from youtube
-    #spotify_token = 'BQBE0nNuW57zVmP04CPmuGvwVHofAtusvHbcFR6SqBFsbYXctprM8iWQC_IqQmefd53qTtq_X_RhhQl0iN8PFPm3FLSonz4YxY0HIpF4VrOTMmd88C8XYHT8wlkSRryG8jewiTZ-e-9-UUyza_QCo-9TsVxQA7_S58dyiRImhQ'
     youtube_client = YoutubeClient('./credentials/client_secret.json')
     spotify_client = SpotifyClient(os.getenv('SPOTIFY_AUTH_TOKEN'))
     playlists = youtube_client.get_playlists()
