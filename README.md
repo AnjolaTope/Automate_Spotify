@@ -32,7 +32,7 @@ TOOLS USED:<br/>
 
 3.Automating Spotify playlist with python 
 
-<img src= "https://i.imgur.com/2q47Nye.gif" width="800" height="600" />  
+<img src= "https://i.imgur.com/2q47Nye.gif" width="1000" height="600" />  
 
 4.Spotify PLaylist after the Program
 
