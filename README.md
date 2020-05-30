@@ -21,13 +21,22 @@ TOOLS USED:<br/>
 3.Youtube dl library -- Allows us to get the name of the artists from youtube<br/>
 
 
-Playlist on Youtube
+1.Playlist on Youtube
+
 ![im1](https://user-images.githubusercontent.com/56732553/83330826-d35e8000-a25f-11ea-93e1-cc602f02deef.png)
 
-Spotify PLaylist before the Program
+2.Spotify PLaylist before the Program
 
-Automating the process with python 
+![image](https://user-images.githubusercontent.com/56732553/83330903-54b61280-a260-11ea-9ea9-e0461b30fc63.png)
 
-Spotify PLaylist after the Program
+
+3.Automating the process with python 
+
+<img src= "https://i.imgur.com/2q47Nye.gif" width="600" height="600" />  
+
+4.Spotify PLaylist after the Program
+
+![image](https://user-images.githubusercontent.com/56732553/83339651-10496780-a29e-11ea-8e41-1fbd5e62dce3.png)
+
 
 
